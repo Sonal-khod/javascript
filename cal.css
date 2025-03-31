@@ -1,0 +1,57 @@
+
+#calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    margin: auto;
+    padding: 15px 20px;
+width: 200px;
+border-radius: 8px;
+font-size: 25px;
+background-color: rgba(28, 26, 26,0.7);
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(..//calculator/unsplash.jpg) no-repeat;
+    width: 100vh;
+    background-size: cover;
+
+
+}
+#display{  
+ 
+   margin: 10px;
+   width: 85%;
+   font-size: 25px;
+   padding: 8px;
+   border: none;
+   background-color:rgba(26, 24, 24, 0.6);
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   font-style: italic;
+   /* background: transparent; */
+
+}
+.button_cont{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;    
+     
+}
+.button{
+    margin: 8px;
+    padding: 2px;
+    width: 40px;
+    height: 45px;
+    color: white;
+    background-color: rgba(26, 24, 24, 0.6);
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 20px;
+
+}
