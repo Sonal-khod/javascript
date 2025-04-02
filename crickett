@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+</head>
+<body>
+<h1>Bat Ball Stump Game</h1>
+
+<button onclick=" let Choice= Game();
+let resultmsg;
+    if(Choice==='Ball'){ 
+    resultmsg='user won' ;}
+    else if (Choice==='Bat'){ 
+    resultmsg= 'it is tie' ;}
+    else if(Choice==='Stump')
+    { resultmsg= 'computer won';}
+    alert(`you have chosen Bat computer chosen ${Choice} and result is ${resultmsg}`)
+
+"> Bat
+</button>
+<button
+onclick=" Choice=Game();
+  
+    
+    if(Choice==='Ball'){ 
+    resultmsg='its tie' ;}
+    else if (Choice==='Bat'){ 
+        resultmsg= 'compuer won' ;}
+    else if(Choice==='Stump')
+     { resultmsg= 'user won';}
+    alert(`you have chosen Ball computer chosen ${Choice} and result is ${resultmsg}`)
+
+"
+>Ball</button>
+<button  onclick=" Choice= Game();
+   
+    if(Choice==='Ball'){ 
+          resultmsg='computer won';}
+    else if (Choice==='Bat'){ 
+        resultmsg= 'user won';}
+    else if(Choice==='Stump')
+    { resultmsg= 'its tie';}
+    alert(`you have chosen Bat computer chosen ${Choice} and result is ${Choice}`)
+
+">Stump</button>
+ <script>
+let Choice;
+function Game(){
+let Number= Math.random() *3;
+let number=Math.round(Number)
+// console.log(` value=${number}`)
+
+if( number>0 && number<=1)
+    {
+            return'Bat';
+    }else if(number>1 && number<=2)
+    {
+         return'Ball';
+    }else  if(number>2 && number<=3)
+    {
+         return'Stump';
+    } 
+}
+ </script>   
+</body>
+</html>
