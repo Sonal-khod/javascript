@@ -16,7 +16,7 @@ let resultmsg;
     resultmsg= 'it is tie' ;}
     else if(Choice==='Stump')
     { resultmsg= 'computer won';}
-    alert(`you have chosen Bat computer chosen ${Choice} and result is ${resultmsg}`)
+    alert(`you have chosen Bat and computer chosen ${Choice} and result is ${resultmsg}`)
 
 "> Bat
 </button>
